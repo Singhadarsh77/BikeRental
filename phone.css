@@ -1,0 +1,60 @@
+#navbar::before{
+    background-color:black;
+    content: " ";
+    top: 0;
+    left: 0px;
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+#mlogo img{
+    height: 70px;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    
+}
+#navbar ul{
+    display: flex;
+    text-align: center;
+
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    padding: 3px 25px;
+    display: block;
+    color:white;
+    border-radius: 23px;
+    text-align: center;
+}
+
+
+#home::before{
+    background: url('/img/bg/bg1.jpg') no-repeat center center/cover;
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 700px;
+    height: 655px;
+    z-index: -1;
+    opacity: 0.83;
+}
