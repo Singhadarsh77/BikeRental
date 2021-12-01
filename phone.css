@@ -1,0 +1,368 @@
+/* Navigation Section */
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar img{
+    height: 5rem;
+    width: 7.5rem;
+    margin: 0 auto;
+    z-index:0;
+    opacity:1; 
+}
+
+#navbar ul li{
+    margin: .2rem auto;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    display: block;
+    border-radius: 2.5rem;
+    padding: .5rem .5rem;
+}
+
+#home::before{
+    height: 65.35rem;
+}
+/* Product Section */
+
+#product::before{
+    margin-top: 0;
+}
+
+.p-headding{
+    margin-top: 12.23rem;
+}
+
+/* About Section */
+#about-img{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#about-img img{
+    display: flex;    
+    height: 40rem;
+    width: 30rem;
+    margin: .1rem auto;
+    border-radius: 1.9rem;
+}
+
+#about-img p{
+    
+    font-size: 2rem;
+    text-align: justify;
+    margin-top: 1rem;
+    padding: 0 5rem;
+    color:white;
+}
+
+#abtn{
+    
+    box-shadow: none;
+    margin-bottom: 1rem
+}
+
+/* Contect Section */
+#contect{
+    position: relative;
+}
+
+#contect-box form{
+    width: 50%;
+}
+
+footer{
+    font-size: 1.6rem;
+    /* flex-direction: column; */
+}
+
+@media only screen and (max-width: 310px) {
+
+    /* Navigation Section */
+    #navbar ul li a{
+        font-size: 1.5rem;
+        padding: .5rem .2rem;
+    }
+
+    /* Home Section */
+
+    #home .h-primary{
+        font-size: 2.5rem;
+        padding: 1.6rem 0;
+    }
+    
+    #home p{
+        font-size: 1.7rem;
+    }
+
+    #btn{
+        margin: 3rem 0;
+        height: 3.5rem;
+        width: 12rem;
+        font-size: 1rem;  
+    }
+
+    #home::before{
+        width: 100%;
+        height: 51.65rem;
+    }
+
+    #home{
+        height: 19.13rem;
+    }
+    
+    /* Product Section */
+    #product::before{
+        margin-top: 0;
+    }
+    
+    .p-headding{
+        /* margin: 2.5rem 0rem; */
+        margin-top: 13.13rem;
+        font-size: 2.5rem;
+    }
+
+    #p-box .box{
+        display: block;
+        margin: 2rem 1.7rem;
+        height: 23rem;
+    }
+
+    #p-box .box img{
+        height: 10rem;
+        
+    }
+    
+    /* Product Section Button And Paragraph */
+    .box p{
+        margin: 1rem 0;
+        font-size: 1.2rem;
+        padding:0 .5rem;
+    }
+    
+    .box .bbtn{
+        width: 10rem;
+        height: 3.5rem;
+        margin:2rem auto;
+    }
+
+    /* About section */
+    #about-img img{
+        height: 20rem;
+        width: 15rem;
+    }
+
+    #a-heading{
+        font-size: 2rem;
+        margin: 3rem 2rem;
+    }
+
+    /* Contect Section */
+    .center{ 
+        font-size: 2.5rem;
+    } 
+    
+    #submit{
+        margin: 1rem 0rem;
+        cursor: pointer;
+    }
+
+    #contect-box form{
+        width: 75%;
+    }
+
+    footer{
+        font-size: 2rem;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 218px){
+    
+    /* Navigation Section */
+    #navbar ul{
+        margin: 0rem auto;
+        flex-wrap: wrap;
+    }
+
+    #navbar ul li a{
+        font-size: 1.2rem;
+        padding: .2rem .2rem;
+    }
+    
+    #navbar::before{
+        width: 100%;
+        height: 11rem;
+    }
+   
+    #navbar{
+       display: flex;
+       margin: 0 .1rem;
+       padding: 0rem 1rem;
+    }
+   
+    #navbar img{
+       height: 6rem;
+       margin: 0rem auto;
+    }
+
+    /* Home section */
+    #home::before{
+        width: 100%;
+        height: 39.25rem;
+    }
+
+    #home{
+        margin: 3.3rem 0;
+        height: 14.53rem;
+    }
+    
+    
+    #home .h-primary{
+        font-size: 2rem;
+        padding: 1.6rem 0;
+    }
+    
+    #home p{
+        font-size: 1.3rem;
+    }
+    
+    /* Product Section */
+    #p-box .box img{
+        height: 8rem;
+    }
+
+    #p-box .box{
+        display: block;
+        margin: 2rem .5rem;
+        height: 20rem;
+    }
+
+    .box p{
+        margin: 1rem 0;
+        font-size: 1rem;
+        color: black;
+        padding:0 .5rem;
+    }
+
+    footer{
+        font-size: 1.6rem;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 206px){
+    
+    /* Navigation Section */
+   #navbar img{
+        height: 6rem;
+        margin: 0rem auto;
+        display: none;
+    }
+
+    #navbar ul{
+        margin: 0rem auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /* Home Section */
+    #home::before{
+
+        width: 100%;
+        height: 42.25rem;
+    }
+
+    #home{
+        margin: 3.3rem 0;
+        height: 16.53rem;
+    }
+
+    #btn{
+        width: 10rem;
+        
+    }
+
+    /* Product box */
+    .box p{
+        text-align: center;
+    }
+
+    /* About Section */
+    #about-img p{
+    
+        font-size: 1.3rem;
+        text-align: justify;
+        padding: 0 2rem;
+    }
+
+    #a-heading{
+        font-size: 1.5rem;
+        margin: 2rem 1rem;
+    }
+
+    #about-img img{
+        height: 15rem;
+        width: 10rem;
+    }
+
+    #abtn{
+        height: 3rem;
+        width: 9rem;
+        margin: .5rem auto;
+        font-size: 1.4rem;
+    }
+
+    footer{
+        font-size: 1.3rem;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 130px){
+
+    /* Home Section */
+    #home::before{
+        width: 100%;
+        height: 43.25rem;
+    }
+
+    #home{
+        margin: 3.3rem 0;
+        height: 17.53rem;
+    }
+
+    #btn{
+        width: 8rem;
+    }
+
+    /* Product Section */
+    #p-box .box img{
+        height: 6rem;
+    }
+
+    .box .bbtn{
+        width: 8rem;
+        height: 3.5rem;
+        margin:2rem auto;
+    }
+
+    .p-headding{
+        font-size: 2rem;
+    }
+
+    /* About Section */
+    #abtn{
+        height: 3rem;
+        width: 7rem;
+    }
+}
